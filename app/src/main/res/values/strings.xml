@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Tyre Inspection</string>
+    <string name="history_title">Inspection history</string>
+    <string name="capture">Inspect</string>
+    <string name="gallery">Gallery</string>
+    <string name="history">History</string>
+    <string name="torch">Torch</string>
+    <string name="tyre_position">Tyre position</string>
+    <string name="pos_fl">FL</string>
+    <string name="pos_fr">FR</string>
+    <string name="pos_rl">RL</string>
+    <string name="pos_rr">RR</string>
+    <string name="pos_spare">Spare</string>
+    <string name="live_hint">Point the camera at the tyre tread or sidewall</string>
+    <string name="camera_permission_needed">Camera permission is required to inspect tyres.</string>
+    <string name="capture_failed">Capture failed: %1$s</string>
+    <string name="import_failed">Could not open that image</string>
+    <string name="models_missing">No AI model found in assets. See ml/README.md to train and add one.</string>
+    <string name="models_partial">Only the %1$s model is installed.</string>
+    <string name="model_classifier">condition</string>
+    <string name="model_detector">defect</string>
+    <string name="analyzing">Analysing tyre…</string>
+
+    <string name="verdict_pass">PASS: tyre looks good</string>
+    <string name="verdict_attention">ATTENTION: needs checking</string>
+    <string name="verdict_fail">FAIL: do not use</string>
+    <string name="verdict_retake">RETAKE: photo unclear</string>
+    <string name="verdict_unknown">UNKNOWN: no model</string>
+
+    <string name="section_condition">Overall condition</string>
+    <string name="section_defects">Detected defects</string>
+    <string name="section_advice">Recommendations</string>
+    <string name="section_quality">Photo quality</string>
+    <string name="no_defects">No defects detected</string>
+    <string name="condition_value">%1$s (%2$d%%)</string>
+    <string name="condition_unavailable">Condition model not installed</string>
+    <string name="defect_value">%1$s · %2$s · %3$d%%</string>
+    <string name="quality_value">Brightness %1$.0f / 255 · Sharpness %2$.0f · %3$d ms</string>
+    <string name="live_status">%1$s · %2$d defect(s)</string>
+    <string name="result_header">Tyre %1$s · %2$s</string>
+    <string name="share">Share</string>
+    <string name="delete">Delete</string>
+    <string name="new_inspection">New inspection</string>
+    <string name="share_subject">Tyre inspection report</string>
+    <string name="history_empty">No inspections yet</string>
+    <string name="history_item_defects">%1$d defect(s)</string>
+    <string name="disclaimer">AI results are guidance only. Confirm with a tread-depth gauge and a qualified technician.</string>
+</resources>

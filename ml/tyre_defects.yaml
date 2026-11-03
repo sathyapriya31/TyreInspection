@@ -1,0 +1,17 @@
+# YOLO dataset config. Put images/labels in YOLO format under `path`:
+#   data/defects/images/{train,val}/*.jpg
+#   data/defects/labels/{train,val}/*.txt   (class cx cy w h, normalized)
+path: data/defects
+train: images/train
+val: images/val
+
+# Index order matters: it becomes defect_labels.txt in the app.
+names:
+  0: bulge
+  1: crack
+  2: cut
+  3: exposed_cord
+  4: foreign_object
+  5: puncture
+  6: sidewall_damage
+  7: worn_tread

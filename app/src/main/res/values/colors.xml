@@ -1,0 +1,12 @@
+<resources>
+    <color name="brand">#FF1F2933</color>
+    <color name="brand_accent">#FFFFB300</color>
+    <color name="verdict_pass">#FF2E7D32</color>
+    <color name="verdict_attention">#FFEF6C00</color>
+    <color name="verdict_fail">#FFC62828</color>
+    <color name="verdict_retake">#FF546E7A</color>
+    <color name="verdict_unknown">#FF757575</color>
+    <color name="scrim">#B3000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#FF000000</color>
+</resources>

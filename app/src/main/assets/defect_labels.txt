@@ -1,0 +1,8 @@
+bulge
+crack
+cut
+exposed_cord
+foreign_object
+puncture
+sidewall_damage
+worn_tread
